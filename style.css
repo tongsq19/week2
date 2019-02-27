@@ -1,0 +1,349 @@
+
+body {
+    background: #80a8cc;
+}
+
+
+.main {
+    width: 1600px;
+    background: #fcf9f4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+ * header
+ */
+
+header {
+    height: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.header-column-1,
+.header-column-2,
+.header-column-3 {
+    display: inline-block;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: bottom;
+}
+
+.header-column-1,
+.header-column-2 {
+    border-right: solid 1px #eae7e2;
+}
+
+.header-column-1 {
+    width:160px;
+    padding-left: 230px;
+}
+
+.header-column-2 > nav > a {
+    color: #d8d6d5;
+    padding-left: 42px;
+    cursor: pointer;
+}
+
+nav > a:last-child {
+    padding-right: 42px;
+}
+
+footer {
+    text-align: center;
+    line-height: 100px;
+}
+
+.header-column-3 {
+    padding-left: 35px;
+}
+
+.header-column-3 > button {
+    width: 150px;
+    height: 40px;
+    background-color: #fcf9f4;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #4d4e59;
+    border: 1px solid #dad7d2;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+/*
+ * ONLINE TUTORING. ALWAYS FREE AND AVAILABLE.
+ */
+
+
+#row-0 {
+    background-image: url("main.png");
+    color: #fff;
+    height: 794px;
+    text-align: center;
+}
+
+#row-0 h2 {
+    font-family: "Amatic SC", cursive;
+    font-size: 60px;
+    margin-top: 300px;
+    margin-bottom: 50px;
+}
+
+.cover {
+    height: 100%;
+    background:rgba(130,130,130,0.5);
+    overflow: auto;
+}
+
+.button {
+    font-family: "Amatic SC", cursive;
+    font-size: 24px;
+    height: 60px;
+    width: 270px;
+    color: #fff;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.button-light {
+    font-family: "Amatic SC", cursive;
+    font-size: 24px;
+    height: 60px;
+    width: 270px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 0;
+    margin-right: 30px;
+    color: #fff;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+
+i {
+    border: solid rgba(255, 255, 255, 0.2);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    top: 260px;
+    cursor: pointer;
+}
+
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+/*
+ * -Mission
+ */
+
+.column {
+    border: 1px solid #000;
+    height: 700px;
+}
+
+
+
+#row-1 {
+    font-family: 'Open Sans', sans-serif;
+    color: #636471;
+    text-align: center;
+}
+#row-1 h2{
+    font-family: "Amatic SC", cursive;
+    font-size: 52px;
+    margin-top: 150px;
+    margin-bottom: 32px;
+    color: #4d4e59;
+}
+#row-1 p {
+    font-size: 20px;
+}
+
+#row-1 button {
+    margin-top: 12px;
+    margin-bottom: 200px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    height: 50px;
+    width: 270px;
+    border: none;
+    border-radius: 5px;
+    color: #636471;
+    background-color: #ffcd62;
+    cursor: pointer;
+
+}
+
+/*
+ * -STUDENTS
+ * -PROSPECTIVE TUTORS
+ * -PARTNERS
+ */
+
+.section {
+    height: 700px;
+    color: #fff;
+    overflow: auto;
+}
+
+.section h2 {
+    font-family: "Amatic SC", cursive;
+    font-size: 52px;
+    margin-top: 170px;
+    margin-bottom: 32px;
+}
+
+.section p {
+    width: 22em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    text-overflow: "-";
+}
+
+.section button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    height: 60px;
+    width: 300px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.column-left,
+.column-right {
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.section img {
+    margin-top: 170px;
+}
+.section-green button {
+    background-color: rgb(124,182,154);
+}
+
+.section-yellow button {
+    background-color: #eabc5b;
+}
+
+.section-blue button {
+    background-color: #6d91b1;
+}
+
+.column-left {
+    margin-left: 312px;
+}
+
+.column-right {
+    margin-left: 138px;
+}
+
+.section-green {
+    background-color: #91d0b1;
+}
+
+.section-yellow {
+    background-color: #ffcd62;
+}
+
+.section-blue {
+    background-color: #80a8cc;
+}
+
+
+#indicator-bar {
+    display: inline-block;
+    position: relative;
+    left: 130px;
+    top: 290px;
+    width: 50px;
+    height: 100px;
+}
+
+.indicator {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    background-color: rgb(124,182,154);
+    cursor: pointer;
+}
+
+.selected {
+    background-color:white;
+}
+
+
+
+/*
+ * -OUR PROGRESS
+ */
+#row-5 {
+    text-align: center;
+    height: 840px;
+}
+
+#row-5 h2{
+    font-family: "Amatic SC", cursive;
+    font-size: 60px;
+    color: #909094;
+    margin-top: 170px;
+    margin-bottom: 80px;
+}
+
+.column-1-3 {
+    display: inline-block;
+    height: 350px;
+    width: 368px;
+    border: solid 1px #eeece7;
+    margin-right: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.column-1-3 h1 {
+    font-family: "Amatic SC", cursive;
+    font-size: 100px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.column-1-3 div {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#square-green {
+    color: #91d0b1;
+}
+
+#square-yellow {
+    color: #ffcd62;
+}
+
+#square-blue {
+    color: #80a8cc;
+}
+
+
+/*
+ * footer
+ */
+
+footer {
+    background-color: #4d4e59;
+    color: #d4d2d0;
+    height: 100px;
+}
